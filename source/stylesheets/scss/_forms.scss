@@ -3,7 +3,7 @@
 }
 
 .gc-input {
-  border: 1px solid #e6eaed;
+  border: 1px solid $lightergrey;
   border-radius: 4px;
   color: $grey;
   display: block;
@@ -15,7 +15,7 @@
   box-sizing: border-box;
 
   &:focus {
-    border: 1px solid darken(#e6eaed,10%);
+    border: 1px solid darken($lightergrey,10%);
     outline: none;
   }
   &::-webkit-input-placeholder {
@@ -117,7 +117,7 @@
 
 .gc-input--dropdown {
   background-image: url("../images/dropdown-icon.svg");
-  background-color: #fff;
+  background-color: $white;
   background-size: 7px 14px;
   background-position: right 10px center;
   background-repeat: no-repeat;

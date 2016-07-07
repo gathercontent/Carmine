@@ -1,6 +1,6 @@
 .sidebar {
   background-color: $blue;
-  color: #fff;
+  color: $white;
   height: 100%;
   max-width: 350px;
   overflow: scroll;
@@ -11,7 +11,7 @@
 }
 
 .sidebar__header {
-  color: #fff;
+  color: $white;
   font-weight: 300;
 }
 
@@ -30,7 +30,7 @@
 
 .sidebar__link {
   border-radius: 4px;
-  color: #fff;
+  color: $white;
   display: block;
   padding: 8px 12px;
   text-decoration: none;
