@@ -51,12 +51,68 @@
 	color: #a6b1ba;
 }
 
+.gc-input__helper--error {
+  color: $red;
+}
+
+.gc-input__helper--success {
+  color: $green;
+}
+
 .gc-input--disabled {
 	background-color: #F7F9FA;
 
 	&:hover {
 		cursor: not-allowed;
 	}
+}
+
+.gc-input--error {
+  border-color: $red;
+  color: $red;
+
+  &:focus {
+    border-color: darken($red, 15%);
+  }
+
+  &::-webkit-input-placeholder {
+    color: $red;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $red;
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $red;
+  }
+  &:-ms-input-placeholder {
+    color: $red;
+  }
+}
+
+.gc-input--success {
+  border-color: $green;
+  color: $green;
+
+  &:focus {
+    border-color: darken($green, 15%);
+  }
+
+  &::-webkit-input-placeholder {
+    color: $green;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $green;
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $green;
+  }
+  &:-ms-input-placeholder {
+    color: $green;
+  }
 }
 
 .gc-input--dropdown {
