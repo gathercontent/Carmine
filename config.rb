@@ -30,6 +30,11 @@
 
 ###
 # Helpers
+helpers do
+  def is_link_active_class(path)
+    current_page.path == path ? 'sidebar__link--active' : ''
+  end
+end
 ###
 
 # Automatic image dimensions on image_tag helper
