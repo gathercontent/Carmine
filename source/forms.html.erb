@@ -9,46 +9,46 @@ title: Cashew
 			<h1 class="h3 sidebar__header">Cashew</h1>
 			<nav class="sidebar__nav">
 				<li class="sidebar__item">
-					<%= link_to "Introduction", "/index.html", :class => "sidebar__link" %>
+					<%= link_to "Introduction", "index.html", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
 					<h1 class="sidebar__subheader h6">Application</h1>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Colours", "/colours.html", :class => "sidebar__link" %>
+					<%= link_to "Colours", "colours.html", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Typography", "/typography.html", :class => "sidebar__link" %>
+					<%= link_to "Typography", "typography.html", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Buttons", "/buttons.html", :class => "sidebar__link" %>
+					<%= link_to "Buttons", "buttons.html", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Forms", "/forms.html", :class => "sidebar__link sidebar__link--active" %>
+					<%= link_to "Forms", "forms.html", :class => "sidebar__link sidebar__link--active" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Tables", "/tables", :class => "sidebar__link" %>
+					<%= link_to "Tables", "tables", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Notifications", "/notifications", :class => "sidebar__link" %>
+					<%= link_to "Notifications", "notifications", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Alerts", "/alerts", :class => "sidebar__link" %>
+					<%= link_to "Alerts", "alerts", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Miscellaneous", "/miscellaneous", :class => "sidebar__link" %>
+					<%= link_to "Miscellaneous", "miscellaneous", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
 					<h1 class="sidebar__subheader h6">Illustration</h1>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Palette", "/palette.html", :class => "sidebar__link" %>
+					<%= link_to "Palette", "palette.html", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Brushes", "/brushes.html", :class => "sidebar__link" %>
+					<%= link_to "Brushes", "brushes.html", :class => "sidebar__link" %>
 				</li>
 				<li class="sidebar__item">
-					<%= link_to "Example Illustrations", "/example-illustrations", :class => "sidebar__link" %>
+					<%= link_to "Example Illustrations", "example-illustrations", :class => "sidebar__link" %>
 				</li>
 			</nav>
 		</div>
@@ -57,7 +57,7 @@ title: Cashew
 		<div class="content__inner">
 			<h1 class="h3">Forms</h1>
 			<hr>
-			<p>Did you know that 100% of the information submitted to our platfor is done via forms? Of course you did. Inputs always take up the maximum width of the parent, so you should use them within grids wherever possible.</p>
+			<p>Did you know that 100% of the information submitted to our platform is done via forms? Of course you did. Inputs always take up the maximum width of the parent, so you should use them within grids wherever possible.</p>
 			<h2 class="h4">Inputs</h2>
 			<div class="grid">
 				<div class="grid__item one-quarter">
@@ -68,7 +68,7 @@ title: Cashew
 				</div><!--
 				--><div class="grid__item one-quarter">
 					<div class="gc-input__wrapper">
-						<label for="first-name" class="gc-input__label">Last name</label>
+						<label for="first-name" class="gc-input__label">Last name with helper</label>
 						<input type="text" name="" class="gc-input gc-input--search" placeholder="Last name">
 						<small class="gc-input__helper">Please don't use a generic last name</small>
 					</div>
@@ -83,12 +83,28 @@ title: Cashew
 				</div><!--
 				--><div class="grid__item one-quarter">
 					<div class="gc-input__wrapper">
-						<label for="first-name" class="gc-input__label">Country</label>
+						<label for="first-name" class="gc-input__label">Dropdown field</label>
 						<select name="country" id="" class="gc-input gc-input--dropdown">
 							<option value="UK">UK</option>
 							<option value="U.S.A">U.S.A</option>
 							<option value="Germany">Germany</option>
 						</select>
+					</div>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Error field</label>
+						<input type="text" name="first-name" class="gc-input gc-input--error" placeholder="First name">
+						<small class="gc-input__helper gc-input__helper--error">Please don't use a generic last name</small>
+					</div>
+				</div><!--
+				--><div class="grid__item one-quarter">
+					<div class="gc-input__wrapper">
+						<label for="first-name" class="gc-input__label">Success field</label>
+						<input type="text" name="last-name" class="gc-input gc-input--success" placeholder="Last name">
+						<small class="gc-input__helper gc-input__helper--success">You did it! You're awesome!</small>
 					</div>
 				</div>
 			</div>
