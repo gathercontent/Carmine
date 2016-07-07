@@ -16,6 +16,9 @@
   <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6854674/655928/css/fonts.css" />
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="grid grid--fh">
+      <%= partial "partials/sidebar" %><!--
+      --><%= yield %>
+    </div>
   </body>
 </html>
