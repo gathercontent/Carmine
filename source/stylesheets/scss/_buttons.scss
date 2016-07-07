@@ -2,10 +2,11 @@
   border: none;
   border-radius: 3px;
   color: inherit;
+  font-family: $sans-serif;
   display: inline-block;
   font-size: 1.4rem;
   font-weight: 500;
-  padding: 1.5rem;
+  padding: 10px 17px;
   text-decoration: none;
   transition: background-color .2s ease;
 
@@ -57,16 +58,4 @@
   &:hover {
     background: darken($blue,5%);
   }
-}
-
-.btn--s {
-  font-size: 1.2rem;
-}
-
-.btn--l {
-  font-size: 1.6rem;
-}
-
-.btn--xl {
-  font-size: 2rem;
 }
