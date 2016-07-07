@@ -1,0 +1,34 @@
+pre {
+  margin: 0;
+
+  & > .hljs {
+    max-height: 250px;
+    overflow: scroll;
+  }
+}
+
+code {
+  background-color: $whitegrey;
+  border-radius: 4px;
+  color: $grey;
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 3px 5px;
+
+  &.hljs {
+    background-color: $whitegrey;
+    border-radius: 4px;
+    padding: 20px;
+  }
+}
+
+.gc-code__input {
+  border: 1px solid $lightergrey;
+  border-radius: 0 0 4px 4px;
+  border-top: none;
+}
+
+.gc-code__output {
+  border: 1px solid $lightergrey;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+}
