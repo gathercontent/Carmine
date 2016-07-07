@@ -1,5 +1,5 @@
 # Carmine
-Carmine encompasses a styleguide GatherContent's web application, as well as our illustration styleguide.
+Carmine encompasses a styleguide for GatherContent's web application, as well as our illustration styleguide.
 
 # How to use
 1. Clone the repo
