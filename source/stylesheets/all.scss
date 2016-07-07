@@ -1,11 +1,13 @@
 @import 'scss/grid';
 @import 'scss/variables';
+@import 'scss/code_blocks';
 @import 'scss/typography';
 @import 'scss/sidebar';
 @import 'scss/brushes';
 @import 'scss/buttons';
 @import 'scss/forms';
 @import 'scss/tables';
+@import 'scss/notifications';
 
 // Pages
 
@@ -39,7 +41,7 @@ a {
 
 hr {
   border: none;
-  border-bottom: 1px solid #e6eaed;
+  border-bottom: 1px solid $lightergrey;
 }
 
 strong {
